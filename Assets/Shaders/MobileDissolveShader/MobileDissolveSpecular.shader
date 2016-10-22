@@ -2,7 +2,8 @@
 Shader "QianMo/Mobile/Dissolve/MobileDissolveSpecular" 
 {
 
-  Properties {
+  Properties 
+  {
     _DissolvePower ("Dissolve Power", Range(0.65, -0.5)) = 0.2
     _DissolveEmissionColor ("Dissolve Emission Color", Color) = (1,1,1)
     _Shininess ("Shininess", Range(0.01, 1)) = 0.02
@@ -27,7 +28,8 @@ Shader "QianMo/Mobile/Dissolve/MobileDissolveSpecular"
     fixed _Shininess;
     fixed4 _SpecularColor;
 
-   struct Input {
+   struct Input 
+   {
     float2 uv_MainTex;
     float2 uv_DissolveTex;
    };
@@ -56,7 +58,8 @@ Shader "QianMo/Mobile/Dissolve/MobileDissolveSpecular"
      o.Gloss = tex.a;
      o.Alpha = _DissolvePower - texd.r;
      
-     if ((o.Alpha < 0)&&(o.Alpha > -0.05)){
+     if ((o.Alpha < 0)&&(o.Alpha > -0.05))
+     {
        o.Alpha = 1;
        o.Albedo = _DissolveEmissionColor;
      }     

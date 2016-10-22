@@ -47,7 +47,8 @@ Shader "QianMo/Mobile/Dissolve/MobileDissolveUnlit"
      o.Gloss = tex.a;
      o.Alpha = _DissolvePower - texd.r;
      
-     if ((o.Alpha < 0)&&(o.Alpha > -0.05)){
+     if ((o.Alpha < 0)&&(o.Alpha > -0.05))
+     {
        o.Alpha = 1;
        o.Albedo = _DissolveEmissionColor;
      }

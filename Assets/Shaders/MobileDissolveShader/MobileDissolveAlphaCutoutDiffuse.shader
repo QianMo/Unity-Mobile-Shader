@@ -2,7 +2,8 @@
 Shader "QianMo/Mobile/Dissolve/MobileDissolveAlphaCutoutDiffuse" 
 {
 
-  Properties {
+  Properties 
+  {
     _DissolvePower ("Dissolve Power", Range(0.65, -0.5)) = 0.2
     _DissolveEmissionColor ("Dissolve Emission Color", Color) = (1,1,1)
     _MainTex ("Main Texture", 2D) = "white"{}
