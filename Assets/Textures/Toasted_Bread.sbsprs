@@ -1,0 +1,28 @@
+<sbspresets formatversion="1.0" count="3" >
+ <sbspreset pkgurl="pkg://Toasted_Bread/Toasted_Bread" label="var01" >
+  <presetinput identifier="$outputsize" uid="1503555930" type="8" value="9,9" />
+  <presetinput identifier="Border" uid="1551531652" type="4" value="1" />
+  <presetinput identifier="Bites" uid="1556224805" type="0" value="0.068" />
+  <presetinput identifier="Depth" uid="1575079552" type="0" value="-0.016" />
+ </sbspreset>
+ <sbspreset pkgurl="pkg://Toasted_Bread/Toasted_Bread" label="var02" >
+  <presetinput identifier="$outputsize" uid="1503555930" type="8" value="9,9" />
+  <presetinput identifier="Toast_Shape" uid="1545027061" type="4" value="3" />
+  <presetinput identifier="Toasted" uid="1551531192" type="0" value="1" />
+  <presetinput identifier="Border" uid="1551531652" type="4" value="1" />
+  <presetinput identifier="Depth" uid="1575079552" type="0" value="-0.016" />
+ </sbspreset>
+ <sbspreset pkgurl="pkg://Toasted_Bread/Toasted_Bread" label="var03" >
+  <presetinput identifier="$randomseed" uid="250373896" type="4" value="-979477537" />
+  <presetinput identifier="$outputsize" uid="1503555930" type="8" value="9,9" />
+  <presetinput identifier="Toast_Shape" uid="1545027061" type="4" value="1" />
+  <presetinput identifier="Toasted" uid="1551531192" type="0" value="0" />
+  <presetinput identifier="Border" uid="1551531652" type="4" value="1" />
+  <presetinput identifier="Bites" uid="1556224805" type="0" value="0.191" />
+  <presetinput identifier="Hue_Shift" uid="1567394920" type="0" value="1" />
+  <presetinput identifier="Luminosity" uid="1567394925" type="0" value="0.48" />
+  <presetinput identifier="Saturation" uid="1567394926" type="0" value="0.525" />
+  <presetinput identifier="Depth" uid="1575079552" type="0" value="-0.016" />
+  <presetinput identifier="Light_Angle" uid="1575613055" type="0" value="0.339" />
+ </sbspreset>
+</sbspresets>
