@@ -17,4 +17,4 @@
 *.RTF	 diff=astextplain
 
 # Linguist Language
-*.shader linguist-language=GLSL
+*.shader linguist-language=shaderlab
